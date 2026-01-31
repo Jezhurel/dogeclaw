@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOGECLAW</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+    body{
+      height:100vh;
+      background:url("dogeclaw.png") no-repeat center center/cover;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .overlay{
+      background:rgba(0,0,0,.6);
+      backdrop-filter:blur(6px);
+      padding:40px 50px;
+      border-radius:16px;
+      text-align:center;
+      color:#fff;
+      max-width:420px;
+      width:90%;
+    }
+    h1{font-size:3rem;letter-spacing:3px;margin-bottom:12px}
+    p{font-size:1.1rem;opacity:.9;margin-bottom:28px}
+    .buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{
+      padding:12px 22px;
+      border-radius:10px;
+      background:#ffcc00;
+      color:#000;
+      text-decoration:none;
+      font-weight:bold;
+      transition:.2s;
+    }
+    .btn:hover{transform:translateY(-2px);opacity:.9}
+    .btn.secondary{
+      background:transparent;
+      border:2px solid #ffcc00;
+      color:#ffcc00;
+    }
+    footer{margin-top:22px;font-size:.75rem;opacity:.6}
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>DOGECLAW</h1>
+    <p>Doge evolved. Claws out. No mercy.</p>
+    <div class="buttons">
+      <a href="https://pump.fun" class="btn" target="_blank">Buy on Pump.fun</a>
+      <a href="https://x.com" class="btn secondary" target="_blank">X (Twitter)</a>
+    </div>
+    <footer>🦀 No roadmap. No promises. Just claws.</footer>
+  </div>
+</body>
+</html>
